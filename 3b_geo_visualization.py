@@ -1,6 +1,3 @@
-# Install required packages (run in terminal once)
-# pip install folium pandas
-
 import folium
 import pandas as pd
 from folium.plugins import MarkerCluster
@@ -53,3 +50,4 @@ for _, row in launch_sites_df.iterrows():
 # Save map to HTML
 site_map.save('spacex_launch_sites_map.html')
 print("Map has been saved as 'spacex_launch_sites_map.html'")
+
