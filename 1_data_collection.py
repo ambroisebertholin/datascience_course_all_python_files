@@ -125,4 +125,5 @@ payload_mean = data_falcon9['PayloadMass'].mean()
 data_falcon9['PayloadMass'].fillna(payload_mean, inplace=True)
 
 # Exportation en CSV
+
 data_falcon9.to_csv('dataset_part_1.csv', index=False)
